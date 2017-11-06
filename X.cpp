@@ -27,7 +27,7 @@ string QuestionsMarks(const char* array)
 	return b ? "true" : "false";
 }
 
-int main(int argc, char *argv) { 
+int main(int argc, char **argv) { 
     
   cout << QuestionsMarks(gets(stdin)) << endl;
 	
